@@ -1,0 +1,22 @@
+{
+  "name": "walcos-server",
+  "version": "1.0.0",
+  "description": "'server for walter cosmopolis.com'",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publikwerker/walcos-server.git"
+  },
+  "author": "Publikwerker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/publikwerker/walcos-server/issues"
+  },
+  "homepage": "https://github.com/publikwerker/walcos-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
