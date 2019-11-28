@@ -7,7 +7,11 @@ router.get('/', (req, res) => res.send('Walter Cosmopolis says hi from his serve
 
 router.get('/posts', controllers.getAllPosts);
 
+router.get('/fans', controllers.getAllFans);
+
 router.post('/post', controllers.createPost);
+
+router.post('/email', controllers.createFan);
 
 
 module.exports = router;
