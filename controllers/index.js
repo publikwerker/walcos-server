@@ -1,9 +1,10 @@
+import React from 'react';
 const Splash = require('../components/splash.js');
 
 const models = require('../database/models');
 
 const getSplash = (req, res) => {
- return res.send(Splash);
+ return res.send(`${<Splash />}`);
 }
 
 const createFan = async (req, res) => {
